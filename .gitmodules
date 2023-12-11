@@ -8,3 +8,12 @@
 	path = acados
 	url = https://github.com/tmmsartor/acados
 	branch = crazyflie
+[submodule "catkin_simple"]
+	path = catkin_simple
+	url = git@github.com:catkin/catkin_simple.git
+[submodule "rpg_quadrotor_common"]
+	path = rpg_quadrotor_common
+	url = git@github.com:uzh-rpg/rpg_quadrotor_common.git
+[submodule "eigen_catkin"]
+	path = eigen_catkin
+	url = git@github.com:ethz-asl/eigen_catkin.git
