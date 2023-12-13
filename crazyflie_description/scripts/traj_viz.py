@@ -98,7 +98,6 @@ def generate_trajectory():
         trajectory_pub.publish(trajectory)
         marker.header.stamp = rospy.Time.now()
         marker_pub.publish(marker)
-        rospy.sleep(1)
 
 def save_poses_to_yaml():
     poses_list = []
